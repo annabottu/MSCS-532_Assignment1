@@ -11,6 +11,7 @@ def insertion_sort(array):
             j -= 1
         array[j + 1] = key
 
-array = [5, 2, 9, 1, 5, 6]
+array = [3, 4, 0, 1, 9, 7, 6]
+print("Unsorted array:", array)
 insertion_sort(array)
-print("Sorted array:", array)
+print("Sorted array :", array)
